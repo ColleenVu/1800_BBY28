@@ -6,6 +6,7 @@
 
 ## General Info
 This browser based web application to ...
+* Hi, my name is Delson. I'm excited about this project because it may be able to solve my immediate challenges with a blended learning environment (both online and in-person sessions) at BCIT.
 	
 ## Technologies
 Technologies used for this project:
