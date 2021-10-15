@@ -1,3 +1,43 @@
 nav, footer {
-  background: rgb(157, 150, 160);
+  background:#242632;
+  color: white;
+}
+.progress-grid {
+  padding: 3em;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(14, 1fr);
+  background-color: #605C73;
+}
+.empty {
+  background-color: black;
+}
+.good {
+  background-color: #9FB48A;
+}
+.neutral {
+  background-color: #CDCA78;
+}
+.bad {
+  background-color: #DE6F79;
+}
+.unverified {
+  background-color: gray;
+}
+.event {
+  aspect-ratio: 1;
+  border: 3px solid white;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  font-weight: 800;
+  
+}
+.bottom-nav-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
